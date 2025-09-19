@@ -6,7 +6,7 @@ $questions = [
     [
         'question' => 'What is the minimum recommended length for a secure password?',
         'options' => ['6 characters', '8 characters', '12 characters', '16 characters'],
-        'answer' => 1 // 8 characters
+        'answer' => 4 // 16 characters
     ],
     [
         'question' => 'Which of the following is a good practice for password management?',
