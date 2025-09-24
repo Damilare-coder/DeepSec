@@ -32,10 +32,15 @@
 <div class="container d-flex justify-content-center">
     <div class="auth-box col-md-5">
         <h2 class="mb-4 text-center">Sign Up</h2>
-        <form method="POST" action="">
+
+        <form method="POST" action="signupprocess.php">
             <div class="mb-3">
-                <label class="form-label">Username</label>
-                <input type="text" name="username" class="form-control" required>
+                <label class="form-label">First name</label>
+                <input type="text" name="first_name" class="form-control" required>
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Last name</label>
+                <input type="text" name="last_name" class="form-control" required>
             </div>
             <div class="mb-3">
                 <label class="form-label">Email</label>
@@ -45,10 +50,10 @@
                 <label class="form-label">Password</label>
                 <input type="password" name="password" class="form-control" required>
             </div>
-            <button type="submit" class="btn btn-green w-100">Sign Up</button>
+            <button type="submit" name="submit" class="btn btn-green w-100">Sign Up</button>
         </form>
         <div class="mt-3 text-center">
-            <span>Already have an account? <a href="login.php" class="text-info">Login</a></span>
+            <span>Already have an account? <a href="signin.php" class="text-info">Login</a></span>
         </div>
     </div>
 </div>
